@@ -1,0 +1,94 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0x0BdE7089c2C4A18E589D592003a678d902677F2E",
+    "txHash": "0x657121b46e232c7aca3cc7c0210d19b2172f150f057fc4739cc95a9c0c90b88b"
+  },
+  "proxies": [
+    {
+      "address": "0x3fce4B5209DF9F276cDD5422e0b604B8Be5952ff",
+      "txHash": "0xf73e2bb5db7dee9c0e822c09254692c6921c62a81d7d02491d331a04b60ccf6a",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "f8a02aed84264c93f3ed8f82583bd938a937d9d04b653882fcee4446a0a841ee": {
+      "address": "0x5967a8A88bcC7Dd8ce74c10ad65Cb5e3Ebf86847",
+      "txHash": "0x0bc2eee825d94b185617f17dc3e542eb0ad6578d9337a0034cff84a8dcd8a773",
+      "layout": {
+        "solcVersion": "0.8.9",
+        "storage": [
+          {
+            "label": "value",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint256",
+            "contract": "Box",
+            "src": "contracts/Box.sol:6"
+          },
+          {
+            "label": "admin",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_address",
+            "contract": "Box",
+            "src": "contracts/Box.sol:7"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    },
+    "a10b21867610e0a8ab39137c3a0aa33a8f42db66912f42c28c500c76980ffcf6": {
+      "address": "0x2b44A5842cC89CB60921FAfF0ce0A73e6A90A9e1",
+      "txHash": "0xd3fc3d3e21e94f8e1e9a007512101bf3836e1f366485fbf988809b21c35ee30c",
+      "layout": {
+        "solcVersion": "0.8.9",
+        "storage": [
+          {
+            "label": "value",
+            "offset": 0,
+            "slot": "0",
+            "type": "t_uint256",
+            "contract": "BoxV1",
+            "src": "contracts/Box-v1.sol:6"
+          },
+          {
+            "label": "admin",
+            "offset": 0,
+            "slot": "1",
+            "type": "t_address",
+            "contract": "BoxV1",
+            "src": "contracts/Box-v1.sol:7"
+          },
+          {
+            "label": "age",
+            "offset": 0,
+            "slot": "2",
+            "type": "t_uint256",
+            "contract": "BoxV1",
+            "src": "contracts/Box-v1.sol:8"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address",
+            "numberOfBytes": "20"
+          },
+          "t_uint256": {
+            "label": "uint256",
+            "numberOfBytes": "32"
+          }
+        }
+      }
+    }
+  }
+}
